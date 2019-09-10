@@ -1,9 +1,8 @@
 
 NAME = 'Denis'
+USERS_NAME = input("Enter your name >> ")
 
-def my_name(users_name):
-    if users_name == NAME:
-        return print('You WIN!')
-    else:
-        return print("Fail")
-
+if NAME == USERS_NAME:
+    print('You win!')
+else:
+    print('You lose')
