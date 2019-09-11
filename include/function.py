@@ -19,4 +19,4 @@ def custom_sum(some_list):
     new_list = sum(some_list)
     return new_list
 
-print(custom_sum(result))
+print('custom_sum = ', custom_sum(result))
