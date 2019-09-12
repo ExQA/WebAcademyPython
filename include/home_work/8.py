@@ -3,7 +3,6 @@ import math
 
 X = int(input('X!= '))
 factorial = 1
-
 for i in range(2, X+1):
     factorial *= i
 

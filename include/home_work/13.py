@@ -1,19 +1,14 @@
+#Count all money
+
+def bank(summa, years):
+    percent_per_annum = 0.1
+    for i in range(years):
+        summa = summa + summa * percent_per_annum
+
+        return print(summa)
 
 
+summa = int(input("Enter your summa >> "))
+years = int(input("Enter count of year >>>"))
 
-user_password = input('Enter Password  >>> ')
-user_password_confirm = input('Enter Password confirm >>> ')
-
-
-
-def is_auth( user_password):
-    if  user_password == user_password_confirm:
-        return True
-    else:
-        return False
-
-
-if is_auth(user_login, user_password):
-    print('OK')
-else:
-    print('NE ok')
+bank(summa, years)
