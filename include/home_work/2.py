@@ -1,4 +1,4 @@
-# a b x; if x betwen a and b
+# a b x; if x between a and b
 
 a = int(input('Enter A >>>'))
 b = int(input('Enter B >>>'))

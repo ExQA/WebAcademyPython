@@ -6,7 +6,7 @@ import re
 while True:
     R = input('Enter radius >>> ').strip()
 
-    if not re.match("(?<=>)\d+.\d+|\d+", R):
+    if not re.match("^\d+(\.\d+)?$", R):
         print ("Error! Make sure you only use float data")
     else:
         radius = float(R)
