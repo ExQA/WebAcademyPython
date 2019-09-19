@@ -1,8 +1,20 @@
 # S = pi * R ˆ2
 import math
+import re
 
-R = float(input('Enter radius >>> '))
 
-s = math.pi * R ** 2
+while True:
+    R = input('Enter radius >>> ').strip()
 
-print('S = ', s)
+    if not re.match("(?<=>)\d+.\d+|\d+", R):
+        print ("Error! Make sure you only use float data")
+    else:
+        radius = float(R)
+        s = math.pi * radius ** 2
+        print('S = ', s)
+        break
+
+
+
+
+
