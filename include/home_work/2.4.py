@@ -2,7 +2,7 @@
 
 
 def product_list(p):
-    total = 1  # critical step works for all list
+    total = 1
     summa = 1
     for i in p:
         total = total * i  # тут умножаем
@@ -12,4 +12,4 @@ def product_list(p):
 
 list = [2, 3, 4, 2]
 
-print (product_list(list))  # should print 48
+print (product_list(list))

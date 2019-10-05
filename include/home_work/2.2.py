@@ -1,5 +1,8 @@
 #Сформировать возрастающий список из чётных чисел (количество элементов 45);
 
-arr = list(range(0, 4))
+def list(n):
+    a = [i for i in range(0,n,2)]
+    return a
 
-print(arr)
+
+print(list(45))
